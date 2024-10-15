@@ -3,26 +3,40 @@
 
 class HelloWorld {
     public static void main(String[] args) {
-        //Enteras
-        int entera;
-        system.out.println("–2,147,483,648 a 2,147,483,648")
-        integer entera;
+        //enyteras
+        byte enteromMuypequeño;
+        Byte
+            enteroMuypequeñoObj
+            ect;
+            
+            short entyeroPequenno;
+            Short entyeroPequennoObject;
+            
+            int entera;
+            System.out.println("n el rango de un entero –2,147,483,648 a 2,147,483,647");
+            Integer enteraObject;
+            
+            long entergoGrande;
+            Long entergoGrandeObject;
+            
+            //decimal
+            
+        float decimal;
+        Float decimalObject;
+        
+        double decimal12;
+        Double decimal12Object;
         
         //bolean
         boolean bool;
-        boolean booleanObject;
-        
-        //vacio
-        void vacio;
+        Boolean booleanObject;
         
         //cadena de caracteres
-        string cadena;
-        
-        //caracter
-        char caracter ;
-        charaacter 
-        
-        //cadena de caracteres
-        
+        char caracter;
+        Character
+            caracterObject;
+            
+            //object
+            Object objeto;
     }
 }
