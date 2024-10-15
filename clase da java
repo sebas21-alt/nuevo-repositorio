@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //Enteras
+        int entera;
+        system.out.println("–2,147,483,648 a 2,147,483,648")
+        integer entera;
+        
+        //bolean
+        boolean bool;
+        boolean booleanObject;
+        
+        //vacio
+        void vacio;
+        
+        //cadena de caracteres
+        string cadena;
+        
+        //caracter
+        char caracter ;
+        charaacter 
+        
+        //cadena de caracteres
+        
+    }
+}
