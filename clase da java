@@ -1,23 +1,27 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-class HelloWorld {
+class EjemploDeClase {
     public static void main(String[] args) {
         //enyteras
-        byte enteromMuypequeño;
-        Byte
-            enteroMuypequeñoObj
-            ect;
+        byte enteromMuypequegno = 1;
+        Byte enteroMuypequeñoObject;
+        System.out.println("El byte es:"+ enteroMuypequegno);
             
-            short entyeroPequenno;
+        Byte enteroMuypequeñoObject;
+         System.out.println("el rango de este tipo de variable byte es");
+             
+            short enteroequenno;
             Short entyeroPequennoObject;
+            System.out.println System.out.println("El rano de los tipos de variable short es -32768 a 32767");
             
             int entera;
-            System.out.println("n el rango de un entero –2,147,483,648 a 2,147,483,647");
+            System.out.println("n el rango de un entero –2,147,483,648 a 2,147,483,648");
             Integer enteraObject;
             
             long entergoGrande;
             Long entergoGrandeObject;
+            System.out.println("n el rango de un long es -2.147.483.648 a 2.147.483.6477");
             
             //decimal
             
@@ -26,15 +30,17 @@ class HelloWorld {
         
         double decimal12;
         Double decimal12Object;
+        System .out.println("n el rango de un doble es de5,0x10^-324 a 1,7x10^");
         
         //bolean
         boolean bool;
         Boolean booleanObject;
         
+        String cadena;
+        
         //cadena de caracteres
         char caracter;
-        Character
-            caracterObject;
+        Character caracterObject;
             
             //object
             Object objeto;
