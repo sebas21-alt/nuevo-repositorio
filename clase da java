@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Entero
-        int integer = 19;
+        int integer = 18;
         System.out.println("El rango de integer es -2 147 483 648 to 2 147 483 647");
         System.out.println("El Int es " + integer);
        
