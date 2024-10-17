@@ -1,48 +1,53 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
-class EjemploDeClase {
+public class Main {
     public static void main(String[] args) {
-        //enyteras
-        byte enteromMuypequegno = 1;
-        Byte enteroMuypequeñoObject;
-        System.out.println("El byte es:"+ enteroMuypequegno);
-            
-        Byte enteroMuypequeñoObject;
-         System.out.println("el rango de este tipo de variable byte es");
-             
-            short enteroequenno;
-            Short entyeroPequennoObject;
-            System.out.println System.out.println("El rano de los tipos de variable short es -32768 a 32767");
-            
-            int entera;
-            System.out.println("n el rango de un entero –2,147,483,648 a 2,147,483,648");
-            Integer enteraObject;
-            
-            long entergoGrande;
-            Long entergoGrandeObject;
-            System.out.println("n el rango de un long es -2.147.483.648 a 2.147.483.6477");
-            
-            //decimal
-            
-        float decimal;
-        Float decimalObject;
-        
-        double decimal12;
-        Double decimal12Object;
-        System .out.println("n el rango de un doble es de5,0x10^-324 a 1,7x10^");
-        
-        //bolean
-        boolean bool;
-        Boolean booleanObject;
-        
-        String cadena;
-        
-        //cadena de caracteres
-        char caracter;
+        // Entero
+        int integer = 19;
+        System.out.println("El rango de integer es -2 147 483 648 to 2 147 483 647");
+        System.out.println("El Int es " + integer);
+       
+        long longNumber = 1000;
+        System.out.println("Long tiene un rango ed numeros de -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807");
+        System.out.println("El long es " + longNumber);
+
+          byte byteNumber = -100;
+        System.out.println("El rango en un buty es de -128 to 127");
+        System.out.println("El byte es "+ byteNumber);
+
+        short shortNumber = 1000;
+        System.out.println("Short tiene un rango de -32768 to 32767");
+        System.out.println("El short es " + shortNumber);
+       
+        //Caracter
+        char character = 'T';
         Character caracterObject;
-            
-            //object
-            Object objeto;
+        System.out.println("el rango de caracteres es de  0 to 65.535");
+        System.out.println("El char es " + character);
+       
+
+        //Boolean
+        boolean booleanNumber = true;
+        System.out.println("Boolean solo permite True or False");
+        System.out.println("EL boolean es " + booleanNumber);
+     
+
+        //Decimal double
+        double doubleNumber = 12.19;
+        System.out.println("El rango del double decimal es ");
+        System.out.println("El double es " + doubleNumber);
+       
+        //String
+        String cadena = "Leito";
+        System.out.println("Crea una cadena de caracteres");
+        System.out.println("El String es " + cadena);
+       
+       
+        //Float / flotante
+        float floatNumber = 19.79f;
+        System.out.println("En el Float el rango es de 1.4e-45 to 3.4e38 ");
+        System.out.println("El float es " + floatNumber);
+
+       
+       
+        Object objeto;
     }
 }
